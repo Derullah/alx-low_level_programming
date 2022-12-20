@@ -1,21 +1,17 @@
 #include "main.h"
-
 /**
- * _stlen -> lenth of a sting
- * @s: string pointer
- *
- * Return: return lenth of the sting
- *
+ * _stlen - Count the lenth of string, "strin lenth"
+ * @s: being the pointer
+ * The str holding the initial string character
+ * The len returning the lent of the string
+ * Return: int len
  */
 
 int _stlen(char *s)
 {
 	int len;
 
-	while (*s != '\0')
-	{
-		len += 1;
-		*s = *s + 1;
-	}
+	while (*(s + len) != '\n')
+			len++;
 	return (len);
 }
