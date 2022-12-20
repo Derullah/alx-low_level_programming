@@ -1,18 +1,18 @@
 #include "main.h"
-
 /**
- * _puts -> this is a function
- * @str: a param to _puts function
- *
- *
+ * _puts - print a string to the sdtout
+ * @str: the string
+ * Return:the lenth of the string
  */
-void _puts(char *str);
 
+void _puts(char *str)
 {
-	for (; *str != '\0'; str++)
-	{
-		_putcahr(*str);
-	}
+	int a = 0;
 
-	_putchar ('\n');
+	while (str[a] != '\0')
+	{
+		_putchar(str[a]);
+		a++;
+	}
+	_putchar('\n');
 }
