@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen:  function that retuns the lenth of a sting
+ * _stlen: retuns the lenth of a sting
  * @s: string pointer
  *
  * Return: return lenth of the sting
