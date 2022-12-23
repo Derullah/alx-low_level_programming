@@ -9,11 +9,15 @@
 
 void reverse_array(int *a, int n)
 {
-
-	void swap(char str[], int, int);
+	void swap(int *x, int *y)
+	{
+		int temp = *x;
+		*x = *y;
+	*y = temp;
+	}
 
 	int lo, hi;
-	char str[] = "hello";
-	for (lo = 0, hi = strlen(str) -1; lo < hi; lo++, hi--)
-		swap(str, lo, hi);
+	for (lo = 0, hi = n - 1; lo < hi; lo++, hi--)
+
+	swap(&a[lo], &a[hi]);
 }
