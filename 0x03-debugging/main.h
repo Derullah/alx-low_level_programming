@@ -4,7 +4,7 @@
 
 void positive_or_negative(int i);
 
-
+int largest;
 
 
 #endif /*MAIN_H*/
