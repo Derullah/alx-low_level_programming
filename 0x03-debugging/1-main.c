@@ -8,11 +8,11 @@
 int main(void)
 {
 	int i;
-
+/*there is no command here for i */
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-	/*i does not increament so it keeps on printing the loop */
+
 	while (i < 10)
 	{
 		putchar(i);
