@@ -8,8 +8,8 @@
 int main(void)
 {
 	int i;
-/*there is no command here for i */
-	printf("Infinite loop incoming :(\n");
+
+	/*printf("Infinite loop incoming :(\n");*/
 
 	i = 0;
 
