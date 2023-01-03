@@ -1,6 +1,7 @@
 #include "main.h"
+#include <string.h>
  /**
-  * _memset - a string
+  * _memset - this memory reset function
   * @s: character 1
   * @b: character 2
   * @n: integer
@@ -9,11 +10,9 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	for (unsigned int i = 0; i < n; i++)
-	{
-		s[i] = b;
 
-	}
 
-	return (s);
+	return (memset(s, b, n));
+
+
 }
