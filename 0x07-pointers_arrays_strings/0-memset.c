@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-  * _memset - function to print memory size
+  * _memset - a string
   * @s: character 1
   * @b: character 2
   * @n: integer
