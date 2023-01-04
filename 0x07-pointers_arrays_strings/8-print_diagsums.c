@@ -4,13 +4,10 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * Return: Always 0
  */
-
 int main(void)
 {
-
-
 	int c3[3][3] = {
 		{0, 1, 5},
 		{10, 11, 12},
@@ -26,6 +23,4 @@ int main(void)
 	print_diagsums((int *)c3, 3);
 	print_diagsums((int *)c5, 5);
 	return (0);
-
-
 }
