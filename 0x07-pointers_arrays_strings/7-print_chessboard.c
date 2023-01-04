@@ -1,7 +1,7 @@
 @include "main.h"
 
 /**
- * _chessboard - chess board
+ * print_chessboard - chess board
  * @a: parameter 1
  *  main - check the code
  *  Return: Always 0.
