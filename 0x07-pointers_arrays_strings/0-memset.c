@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _memset - starting address of memory to be filled
  * @s: character 1
@@ -13,10 +14,8 @@ char *_memset(char *s, char b, unsigned int n)
 
 	while (i <  n)
 	{
-	
 		*(s + 1) = b;
 		i++;
-	
 	}
 	return (s);
 }
