@@ -6,7 +6,7 @@
  * @dest: destinatrion
  * @src: sorce
  * @n: lenth of buffer
- * Return: a pointer dest
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
