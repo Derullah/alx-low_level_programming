@@ -5,6 +5,7 @@
  * @s: string
  * @b: the constant byte of a file
  * @n: the lenth of the buffer
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
