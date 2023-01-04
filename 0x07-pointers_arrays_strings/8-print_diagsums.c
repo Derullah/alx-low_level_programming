@@ -4,17 +4,13 @@
 /**
  * print_diagsums - prints the sum of the tw
  * diagnoals
- * @a: inpute pointer
- * @size: sizew of the matrix
+ * @a: inpue pointer
+ * @size: size of the matrix
  * Return: nothing
  */
 
 void print_diagsums(int *a, int size)
-
 {
-
-
-
 	int i, sum1 = 0, sum2 = 0;
 
 	for (i = 0; i < (size * size); i++)
