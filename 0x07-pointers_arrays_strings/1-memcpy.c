@@ -5,6 +5,7 @@
  * area src to memomry area dest
  * @dest: destinatrion
  * @src: sorce
+ * @n: lenth of buffer
  * Return: a pointer dest
  */
 
@@ -21,6 +22,4 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	}
 
 	return (dest);
-
-
 }
