@@ -6,6 +6,7 @@
  * @accept: string search
  * Return: new string
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 
@@ -17,10 +18,13 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (*(s + j) == *(accept + i))
 				break;
+
 		}
 	if (*(accept + i) == '\0')
 		break;
+
 	 }
+
 	 return (j);
 
 }
